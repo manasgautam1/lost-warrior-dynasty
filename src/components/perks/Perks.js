@@ -16,7 +16,7 @@ const Perks = () => {
   return (
     <div id='perks' className="perks-section">
       <div className='container-xxl px-xxl-0 px-3'>
-        <div className='border-cont py-5'>
+        <div className='border-cont py-lg-5 py-4'>
             <Swiper
                 pagination={{ clickable: true }}
                 spaceBetween={0}
@@ -32,7 +32,7 @@ const Perks = () => {
                 <SwiperSlide>
                 <div className="row align-items-center">
                     <div className="col-md-6 col-12">
-                    <div className="left mb-md-0 mb-5">
+                    <div className="left mb-md-0 mb-4 ps-3">
                         <h1 className='mb-3'>Perks of ownership</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor didunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor didunt ut labore et dolore magna aliqua. Ut enim ad minimveniam. </p>
                     </div>
@@ -47,7 +47,7 @@ const Perks = () => {
                 <SwiperSlide>
                 <div className="row align-items-center">
                     <div className="col-md-6 col-12">
-                    <div className="left mb-md-0 mb-5">
+                    <div className="left mb-md-0 mb-4 ps-3">
                         <h1 className='mb-3'>Perks of ownership</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor didunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor didunt ut labore et dolore magna aliqua. Ut enim ad minimveniam. </p>
                     </div>
@@ -62,7 +62,7 @@ const Perks = () => {
                 <SwiperSlide>
                 <div className="row align-items-center">
                     <div className="col-md-6 col-12">
-                        <div className="left mb-md-0 mb-5">
+                        <div className="left mb-md-0 mb-4 ps-3">
                         <h1 className='mb-3'>Perks of ownership</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor didunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor didunt ut labore et dolore magna aliqua. Ut enim ad minimveniam. </p>
                         </div>
@@ -77,7 +77,7 @@ const Perks = () => {
                 <SwiperSlide>
                 <div className="row align-items-center">
                     <div className="col-md-6 col-12">
-                    <div className="left mb-md-0 mb-5">
+                    <div className="left mb-md-0 mb-4 ps-3">
                         <h1 className='mb-3'>Perks of ownership</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor didunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor didunt ut labore et dolore magna aliqua. Ut enim ad minimveniam. </p>
                     </div>

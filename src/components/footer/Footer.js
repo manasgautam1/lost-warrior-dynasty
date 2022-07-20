@@ -7,21 +7,18 @@ const Footer = () => {
             <button>Connect Wallet</button>
         </p>
         <footer className='footer-content'>
-            <div className="container-xxl px-xxl-0 px-3">
-            <div className="row align-items-center">
-                <div className="col-lg-4 col-7">
+            <div className="container-xxl px-xxl-0 px-3 py-lg-3 py-2">
+            <div className="d-flex justify-content-between align-items-center">
+                <div className="">
                     Copyright by Vanilla Checks
                 </div>
-                <div className="col-lg-4 col-4 py-4">
+                <div className="">
                     <div className="row text-lg-center text-right">
-                        <div className="col">
-                            <i className="fa-brands fa-instagram"></i>
-                        </div>
                         <div className="col">
                             <i className="fa-brands fa-twitter"></i>
                         </div>
                         <div className="col">
-                            <i className="fa-brands fa-youtube"></i>
+                            <i class="fa-brands fa-discord"></i>
                         </div>
                     </div>
                 </div>

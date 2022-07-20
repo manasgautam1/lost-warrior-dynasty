@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import Navbar from "./components/navbar/Navbar.js";
 import Showcase from "./components/showcase/Showcase.js";
-import bg from './images/showcase-bg.png';
+import bg from './images/showcase-bg-2.png';
 
 import img1 from './images/img-1.png';
 import img2 from './images/img-2.png';
