@@ -169,9 +169,9 @@ img{
   position: relative;
 }
 .rm-top .rdmap-img{
-  width: 150%;
+  width: 120%;
   position: absolute;
-  top: -200px;
+  top: -150px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -189,7 +189,7 @@ img{
 
 .rm-bottom-bg .overlay{
   overflow-x: hidden;
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(0, 0, 0, 0.5);
   position: relative;
   left: 0;
   top: 0;
@@ -368,7 +368,7 @@ img{
 
 @media (max-width: 1370px) {
   .rm-top .rdmap-img{
-    top: -180px;
+    top: -120px;
   }
 }
 
@@ -386,7 +386,7 @@ img{
     font-size: 16px;
   }
   .rm-top .rdmap-img{
-    top: -150px;
+    top: -120px;
   }
 }
 @media (max-width: 1100px) {
@@ -427,7 +427,7 @@ img{
     font-size: 17.5px;
   }
   .rm-top .rdmap-img{
-    top: -120px;
+    top: -100px;
   }
   .rm-bottom .rdmap-phases {
     max-width: 700px;
@@ -602,7 +602,7 @@ img{
 
 @media (max-width: 668px){
   .rm-top .rdmap-img{
-    top: -80px;
+    top: -60px;
   }
   .footer .connect-wallet button{
     font-size: 20px;
