@@ -13,8 +13,13 @@ const Showcase = () => {
                         </div>
                     </div>
                     <div className="col-md-5 offset-md-2">
-                        <div className="right mt-md-0 mt-5">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor didunt ut labore et dolore magna aliqua. Ut enim ad minim veniam </p>
+                        <div className="right mt-md-0 mt-3">
+                            <p>
+                            The desolate world marking its doom trembled with its last final call, a call for heroes throughout the Metaverse—opening doors to other worlds of the Metaverse and summoning Legionnaires with their newly acquired unique powers. 
+                            </p>
+                            <p>
+                            2022 marks the age of new heroes and their struggle for survival. What lies beyond this unparalleled world is unfathomable, perhaps an adventure of a new life. 
+                            </p>
                             <div className="buttons">
                                 <button className='me-lg-5 me-4'>
                                     <a href="">BREED</a>
