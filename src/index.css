@@ -24,7 +24,19 @@ img{
   position: relative;
   overflow: hidden;
 }
-
+.home .left{
+  transform: translateY(-150px);
+}
+.home .right{
+  transform: translateY(170px);
+}
+.home .showcase-bg{
+  position: absolute;
+  bottom: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: 3;
+}
 .home .img-1{
   position: absolute;
   left: 65%;
@@ -80,10 +92,12 @@ img{
   padding: .65rem 1.35rem !important;
   cursor: pointer;
   transition: all .3s ease-in;
+  border: 2px solid #fff;
 }
 .navbar-nav .nav-link:hover{
   background: #FFD302;
   color: #000 !important;
+  border: 2px solid #000;
 }
 
 /* SHOWCASE SECTION  */
@@ -112,6 +126,9 @@ img{
 }
 .showcase-content .left h1 span{
   color : #FFD302;
+}
+.showcase-content .left h1.heading-2{
+  margin-top: -20px;
 }
 .showcase-content .left h3{
   margin-top: 20px;
@@ -263,7 +280,7 @@ img{
 .rm-bottom .rdmap-phases .dashes .ver-1,
 .rm-bottom .rdmap-phases .dashes .ver-3 {
   position: absolute;
-  right: 0;
+  right: 9px;
   top: 50px;
   width: 75px;
   transform: rotate(90deg);
@@ -272,7 +289,7 @@ img{
 .rm-bottom .rdmap-phases .dashes .ver-2,
 .rm-bottom .rdmap-phases .dashes .ver-4 {
   position: absolute;
-  left: 0;
+  left: 5px;
   top: 50px;
   width: 75px;
   transform: rotate(90deg);
@@ -301,7 +318,7 @@ img{
   font-style: normal;
   font-weight: 400;
   font-size: 18.5px;
-  line-height: 88%;
+  line-height: 110%;
   color: #000000;
 }
 .perks-section .container{

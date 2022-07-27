@@ -9,7 +9,7 @@ const Showcase = () => {
                     <div className="col-md-5">
                         <div className='left'>
                             <h1 className='mb-0'>New Life</h1>
-                            <h1><span>Legion</span></h1>
+                            <h1 className='heading-2' ><span>Legion</span></h1>
                         </div>
                     </div>
                     <div className="col-md-5 offset-md-2">

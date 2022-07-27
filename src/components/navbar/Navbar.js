@@ -12,7 +12,7 @@ const Navbar = () => {
             <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul className="navbar-nav ms-auto">
+            <ul className="navbar-nav ms-auto mt-lg-0 mt-2">
                 <li className="nav-item me-lg-3 mb-lg-2 mb-1">
                   <a className="nav-link active text-uppercase" onClick={() => window.location.replace("/#roadmap")} aria-current="page">Roadmap</a>
                 </li>

@@ -6,6 +6,8 @@ import bg from './images/showcase-bg-2.png';
 import img1 from './images/img-1.png';
 import img2 from './images/img-2.png';
 import img3 from './images/img-3.png';
+import ShowcaseBG from './images/showcase-bg-5.png';
+
 import Roadmap from "./components/roadmap/Roadmap.js";
 import Footer from "./components/footer/Footer.js";
 import Perks from "./components/perks/Perks.js";
@@ -28,9 +30,10 @@ function App() {
                   background: `url(${bg}) no-repeat center center/cover`,
           }}>
 
-            <img src={img1} alt="" className="img-1" />
+            {/* <img src={img1} alt="" className="img-1" />
             <img src={img2} alt="" className="img-2" />
-            <img src={img3} alt="" className="img-3" />
+            <img src={img3} alt="" className="img-3" /> */}
+            <img src={ShowcaseBG} alt="" className="showcase-bg" />
             <div className="home-overlay">
               <Navbar />
               <Showcase />

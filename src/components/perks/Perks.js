@@ -19,7 +19,7 @@ const Perks = () => {
   return (
     <div id='perks' className="perks-section">
       <div className='container-xxl px-xxl-0 px-3'>
-        <div className='border-cont py-lg-5 py-4'>
+        <div className='border-cont py-5'>
             <Swiper
                 pagination={{ clickable: true }}
                 spaceBetween={0}

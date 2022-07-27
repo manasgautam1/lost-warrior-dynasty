@@ -10,7 +10,6 @@ const Footer = () => {
             <div className="container-xxl px-xxl-0 px-3 py-lg-3 py-2">
             <div className="d-flex justify-content-between align-items-center">
                 <div className="">
-                    Copyright by Vanilla Checks
                 </div>
                 <div className="">
                     <div className="row text-lg-center text-right">
