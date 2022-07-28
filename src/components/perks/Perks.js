@@ -35,60 +35,52 @@ const Perks = () => {
                 <SwiperSlide>
                 <div className="row align-items-center">
                     <div className="col-md-6 col-12">
-                    <div className="left mb-md-0 mb-4 ps-lg-5 ps-3">
+                    <div className="left mb-md-0 mb-4 px-lg-5 px-3">
                         <h1 className='mb-3'>Perks of ownership</h1>
                         <p>With different characters available to you, each with their own story, you can be assured that every NFT in New Legion is absolutely rare and unique. Your NFT is one of a kind, just like you.</p>
                     </div>
                     </div>
-                    <div className="col-md-6 col-12 text-center">
-                    <div>
+                    <div className="col-md-6 col-12 text-center img-container">
                         <img src={perkImg1} alt="" />
-                    </div>
                     </div>
                 </div>
                 </SwiperSlide>
                 <SwiperSlide>
                 <div className="row align-items-center">
                     <div className="col-md-6 col-12">
-                    <div className="left mb-md-0 mb-4 ps-lg-5 ps-3">
+                    <div className="left mb-md-0 mb-4 px-lg-5 px-3">
                         <h1 className='mb-3'>Perks of ownership</h1>
                         <p>Immerse yourself into New Life Legion’s enthusiastic and engaging community and delve deep into its lore, share your thoughts, and portray your never-ending adventure with your fellow legionnaires!</p>
                     </div>
                     </div>
-                    <div className="col-md-6 col-12 text-center">
-                    <div>
+                    <div className="col-md-6 col-12 text-center img-container">
                         <img src={perkImg2} alt="" />
-                    </div>
                     </div>
                 </div>
                 </SwiperSlide>
                 <SwiperSlide>
                 <div className="row align-items-center">
                     <div className="col-md-6 col-12">
-                        <div className="left mb-md-0 mb-4 ps-lg-5 ps-3">
+                        <div className="left mb-md-0 mb-4 px-lg-5 px-3">
                         <h1 className='mb-3'>Perks of ownership</h1>
                         <p>Since we all love a strong, connected community, we introduce partnerships with projects where you can get white-listed for any upcoming events and even get exclusive opportunities to collaborate with various other blue-chip projects.</p>
                         </div>
                     </div>
-                    <div className="col-md-6 col-12 text-center">
-                        <div>
+                    <div className="col-md-6 col-12 text-center img-container">
                         <img src={perkImg3} alt="" />
-                        </div>
                     </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                 <div className="row align-items-center">
                     <div className="col-md-6 col-12">
-                    <div className="left mb-md-0 mb-4 ps-lg-5 ps-3">
+                    <div className="left mb-md-0 mb-4 px-lg-5 px-3">
                         <h1 className='mb-3'>Perks of ownership</h1>
                         <p>Gain access to exclusive content from the private channels along with exclusive information and disclosures. </p>
                     </div>
                     </div>
-                    <div className="col-md-6 col-12 text-center">
-                    <div>
+                    <div className="col-md-6 col-12 text-center img-container">
                         <img src={perkImg4} alt="" />
-                    </div>
                     </div>
                 </div>  
                 </SwiperSlide>

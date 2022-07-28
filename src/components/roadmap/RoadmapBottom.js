@@ -5,7 +5,7 @@ import phaseImg from './phase-1.png';
 const RoadmapBottom = () => {
   return (
     <div className='rm-bottom' >
-        <div className="rm-bottom-bg"   style={{
+        <div className="rm-bottom-bg" style={{
                 height:'100%',
                 background: `url(${bg}) no-repeat center center/cover`,
             }} >
