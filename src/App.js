@@ -30,10 +30,9 @@ function App() {
                   background: `url(${bg}) no-repeat center center/cover`,
           }}>
 
-            {/* <img src={img1} alt="" className="img-1" />
+            <img src={img1} alt="" className="img-1" />
             <img src={img2} alt="" className="img-2" />
-            <img src={img3} alt="" className="img-3" /> */}
-            <img src={ShowcaseBG} alt="" className="showcase-bg" />
+            <img src={img3} alt="" className="img-3" />
             <div className="home-overlay">
               <Navbar />
               <Showcase />

@@ -24,12 +24,6 @@ img{
   position: relative;
   overflow: hidden;
 }
-.home .left{
-  transform: translateY(-150px);
-}
-.home .right{
-  transform: translateY(170px);
-}
 .home .showcase-bg{
   position: absolute;
   bottom: 0;
@@ -39,24 +33,23 @@ img{
 }
 .home .img-1{
   position: absolute;
-  left: 65%;
+  left: 45%;
   bottom: 0;
-  transform: translateX(-65%);
-  width: 30%;
-  z-index: 3;
+  width: 28%;
+  z-index: 2;
 }
 .home .img-2{
   position: absolute;
-  left: 67%;
+  left: 55%;
   bottom: 0;
-  width: 27.5%;
-  z-index: 2;
+  width: 40%;
+  z-index: 3;
 }
 .home .img-3{
   position: absolute;
-  right: -10%;
+  right: -5%;
   bottom: 0;
-  width: 25%;
+  width: 30%;
   z-index: 1;
 }
 .home .home-overlay{
@@ -65,6 +58,32 @@ img{
   background: rgba(0, 0, 0, .3);
 }
 /* NAVBAR  */
+.custom-slider .fa-times{
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+}
+.custom-slider{
+  position: fixed;
+  background: #000;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50vh;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: top 1s ease-in-out;
+}
+.custom-slider.hidden{
+  top: -50vh;
+}
+.custom-slider .navbar-nav{
+  width: 300px;
+}
 .navbar-toggler:focus{
   box-shadow: none;
 }
@@ -120,7 +139,7 @@ img{
   font-family: 'Racing Sans One';
   font-style: normal;
   font-weight: 400;
-  font-size: 130px;
+  font-size: 120px;
   line-height: 95%;
   letter-spacing: -0.035em;
 }
@@ -139,38 +158,27 @@ img{
   line-height: 75%;
   letter-spacing: -0.035em;
 }
-.showcase-content .right h4{
-  font-family: 'Racing Sans One';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 34px;
-  line-height: 88%;
-  text-align: right;
-  letter-spacing: 0.065em;
-  color: #FFFFFF;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75)
-}
-.showcase-content .right p{
+.showcase-content .left p{
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
-  text-align: right;
+  text-align: left;
   color: #FFFFFF;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75);
 }
-.showcase-content .right .buttons{
-  text-align: right;
+.showcase-content .left .buttons{
+  text-align: left;
 }
-.showcase-content .right .buttons button{
+.showcase-content .left .buttons button{
   background: #FFD302;
   box-shadow: 0px 4px 15px 5px rgba(255, 255, 255, 0.25);
   border-radius: 10px;
   padding: .5rem 1rem;
   width: 150px;
 }
-.showcase-content .right .buttons button a{
+.showcase-content .left .buttons button a{
   font-family: 'Racing Sans One';
   font-style: normal;
   font-weight: 400;
@@ -395,7 +403,7 @@ img{
 
 @media (max-width : 1200px) {
   .showcase-content .left h1{
-    font-size: 125px;
+    font-size: 120px;
   }
   .showcase-content .left h3{
     font-size: 50px;
@@ -427,6 +435,27 @@ img{
 }
 
 @media (max-width : 992px) {
+  .showcase-content .left h1,
+  .showcase-content .left p,
+  .showcase-content .left .buttons button,
+  .showcase-content .left .buttons{
+    text-align: center;
+  }
+  .home .img-1{
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+  }
+  .home .img-2{
+    left: 0;
+    width: 30%;
+    z-index: 2;
+  }
+  .home .img-3{
+    right: 0;
+    width: 30%;
+    z-index: 1;
+  }
   .showcase-content .left h1{
     font-size: 100px;
   }
@@ -562,27 +591,6 @@ img{
   }
 }
 @media (max-width : 768px) {
-  .showcase-content,
-  .showcase-content .right h4,
-  .showcase-content .right p,
-  .showcase-content .right .buttons {
-    text-align: center;
-  }
-  .home .img-1{
-    left: 50%;
-    transform: translateX(-50%);
-    width: 50%;
-  }
-  .home .img-2{
-    left: 0;
-    width: 30%;
-    z-index: 2;
-  }
-  .home .img-3{
-    right: 0;
-    width: 30%;
-    z-index: 1;
-  }
   .rm-top .rdmap-img{
     top: -90px;
   }
