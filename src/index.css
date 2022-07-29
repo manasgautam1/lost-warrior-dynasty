@@ -75,8 +75,8 @@ img{
   text-align: left;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   transition: left .5s ease-in-out;
 }
 .custom-slider.hidden{
@@ -84,7 +84,7 @@ img{
 }
 .custom-slider .navbar-nav{
   width: 250px;
-  margin: auto;
+  margin: 70px auto;
 }
 .navbar-toggler:focus{
   box-shadow: none;
