@@ -36,7 +36,7 @@ const Navbar = () => {
                 <li className="nav-item" onClick={()=>{
               setClass();
             }}>
-                  <a className="nav-link active text-uppercase" onClick={() => window.location.replace("/#contact")}>Follow us</a>
+                  <a className="nav-link active text-uppercase" href='https://twitter.com/NewLifeLegion'>Follow us</a>
                 </li>
             </ul>
         </div>

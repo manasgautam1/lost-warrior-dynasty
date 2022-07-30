@@ -472,24 +472,26 @@ img{
   left: 6px;
 } 
 }
-@media (max-width : 405px) {
+@media (max-width : 415px) {
   .rm-bottom .rdmap-phases .dashes .ver-1,
   .rm-bottom .rdmap-phases .dashes .ver-3 {
-  right: 5px;
+    top: 35px !important;
+    right: 3px;
 } 
 .rm-bottom .rdmap-phases .dashes .ver-2,
 .rm-bottom .rdmap-phases .dashes .ver-4 {
-  left: 4px;
+  top: 35px !important; 
+  left: 2.5px;
 } 
 }
-@media (max-width : 355px) {
+@media (max-width : 361px) {
   .rm-bottom .rdmap-phases .dashes .ver-1,
   .rm-bottom .rdmap-phases .dashes .ver-3 {
-  right: 3.5px;
+  right: 1.5px;
 } 
 .rm-bottom .rdmap-phases .dashes .ver-2,
 .rm-bottom .rdmap-phases .dashes .ver-4 {
-  left: 2.5px;
+  left: 1px;
 } 
 }
 @media (max-width : 1200px) {
