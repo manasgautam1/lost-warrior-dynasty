@@ -14,20 +14,20 @@ const Showcase = () => {
                             </div>
 
                             <div className='mt-5'>
-                            <p>
-                            The desolate world marking its doom trembled with its last final call, a call for heroes throughout the Metaverse—opening doors to other worlds of the Metaverse and summoning Legionnaires with their newly acquired unique powers. 
-                            </p>
-                            <p>
-                            2022 marks the age of new heroes and their struggle for survival. What lies beyond this unparalleled world is unfathomable, perhaps an adventure of a new life. 
-                            </p>
-                            <div className="buttons mt-4">
+                                <p>
+                                The desolate world marking its doom trembled with its last final call, a call for heroes throughout the Metaverse—opening doors to other worlds of the Metaverse and summoning Legionnaires with their newly acquired unique powers. 
+                                </p>
+                                <p>
+                                2022 marks the age of new heroes and their struggle for survival. What lies beyond this unparalleled world is unfathomable, perhaps an adventure of a new life. 
+                                </p>
+                            {/* <div className="buttons mt-4">
                                 <button className='me-lg-5 me-4'>
                                     <a href="">BREED</a>
                                 </button>
                                 <button>
                                     <a href="">CONNECT</a>
                                 </button>
-                            </div>
+                            </div> */}
                             </div>
                         </div>
                     </div>
