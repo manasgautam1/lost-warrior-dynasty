@@ -450,15 +450,15 @@ img{
 } 
 }
 
-@media (max-width : 450px) {
+@media (max-width : 576px) {
   .rm-bottom .rdmap-phases .dashes .ver-1,
   .rm-bottom .rdmap-phases .dashes .ver-3 {
-  right: 7px;
+  right: 6.5px;
 } 
 
 .rm-bottom .rdmap-phases .dashes .ver-2,
 .rm-bottom .rdmap-phases .dashes .ver-4 {
-  left: 6px;
+  left: 5.5px;
 } 
 }
 @media (max-width : 450px) {
@@ -482,7 +482,7 @@ img{
   left: 4px;
 } 
 }
-@media (max-width : 3555px) {
+@media (max-width : 355px) {
   .rm-bottom .rdmap-phases .dashes .ver-1,
   .rm-bottom .rdmap-phases .dashes .ver-3 {
   right: 3.5px;
